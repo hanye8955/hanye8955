@@ -1,0 +1,8 @@
+ pen.pendown()
+    for i in range(30):
+        pen.color("yellow")
+        pen.forward(200)
+        pen.left(170)
+    pen.penup()
+    pen.setpos(0, 0)
+    pen.pendown(
