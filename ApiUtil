@@ -1,0 +1,20 @@
+
+  // Attempt to purchase a content item as part of a campaign 
+  cs.purchaseContent(contentId, campaignId, true); 
+ 
+  // Commit the Transaction 
+  ApiUtil.commitTransaction(); 
+} 
+catch (MDSException e) 
+{ 
+  // Rollback the Transaction 
+  ApiUtil.rollbackTransaction(); 
+ 
+  // Handle API Exception 
+  ... 
+} 
+finally 
+{ 
+  // Clean up Transaction 
+  ApiUtil.disposeTransaction(); 
+} 
