@@ -1,0 +1,15 @@
+ // Creating email information  
+            String email = aUPD.getMailAddress(); 
+ 
+            // Creating msisdn in this case Unique Device Id () 
+            String uniqueDeviceId = aUPD.getMsisdn(); 
+ 
+            // Creating Status data:User Enabled/Desabled and User is 
+            // Prepay/Non-Prepay are valued 1/0 
+ 
+            boolean enabled = false; 
+            if (aUPD.getStatus().equals("1")) 
+                enabled = true; 
+  
+            boolean prepay = false; 
+            if (aUPD.getPrepayType().equals("1")) 
