@@ -1,0 +1,18 @@
+ public String getPhone() { 
+        return (String)fInfo.get("phone"); 
+    } 
+    public void setPhone(String param1) { 
+        if (param1 != null) 
+            fInfo.put("phone", param1); 
+    } 
+ 
+    public Date getActivateDate() { 
+        return (Date)fInfo.get("activateDate"); 
+    } 
+    public void setActivateDate(Date param1) { 
+        if (param1 != null) 
+            fInfo.put("activateDate", param1); 
+    } 
+ 
+    public Date getDeActivateDate() { 
+        return (Date)fInfo.get("deactivateDate"); 
