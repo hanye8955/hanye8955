@@ -1,0 +1,7 @@
+private static final int COLUMN_DEFAULT = 9;
+
+    private static final int TABLE_FLAG_SYSTEM = TableSchema.TABLE_IS_SYSTEM;
+    private static final int TABLE_FLAG_NO_SYNC = TableSchema.TABLE_IS_NOSYNC;
+
+    private static final int COLUMN_FLAG_IN_PRIMARY_INDEX = 0x01;
+    private static final int COLUMN_FLAG_IS_NULLABLE = 0x02;
