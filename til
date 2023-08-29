@@ -1,0 +1,4 @@
+ // Rollback the Transaction 
+  ApiUtil.rollbackTransaction(); 
+ 
+  // Handle API Exception 
