@@ -1,0 +1,3 @@
+stem.out.println("transactional="+s.isTransactional()); 
+      System.out.println("jndiCtxFactory="+s.getJndiCtxFactory()); 
+      System.out.println("connFactory="+s.getConnFactory()); 
